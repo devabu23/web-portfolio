@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+h3 {
+    color: #3F51B5;
+}
+h2 {
+    text-transform: capitalize;
+}
+
+.top-banner {
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+section {
+    height: 500px;
+}
+.name {
+    color: #00BCD4;
+}
+.col-2 {
+    width: 40%;
+    float: left;
+    padding: 4%;
+    margin-right: 2%;
+}
+.col-2 img {
+    width: 100%;
+    height: auto;
+}
+.link-button {
+    text-decoration: none;
+    font-size: 600;
+    padding: 10px 25px;
+    color: white;
+    background-image: linear-gradient( 48deg, #F44336,#E91E63 );
+    text-transform: uppercase;
+}
+.center {
+    margin-top: 50px;
+}
+.dream-area {
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    overflow: hidden;
+    height: 600px;
+}
+.one img {
+    width: 90%;
+}
+.experience-area {
+     background-image: url("image/exp-bg.png");
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: 65px;
+     overflow: hidden;
+}
+.box {
+    box-shadow: 5px 5px 40px grey; 
+    padding: 15px;
+    margin: 3%;
+    border-radius: 5px;
+}
+.border-left {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,#FF5722,#E91E63);
+    border-image-slice: 1;
+}
+.border-right {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,#3F51B5,#E91E63);
+    border-image-slice: 1;
+}
+footer p {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    
+}
